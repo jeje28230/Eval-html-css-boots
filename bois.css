@@ -7,7 +7,7 @@ h1{
     text-decoration: underline;
 }
 
-img{
+header{
     display: flex;
     justify-content: center;
 }

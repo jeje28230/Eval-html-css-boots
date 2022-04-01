@@ -1,0 +1,13 @@
+html{
+    background-color:#c97616 ;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+}

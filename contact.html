@@ -20,5 +20,44 @@
         <a href="./galerie.html"><strong>galerie</strong></a>
         <a href="./contact.html"><strong>contact</strong></a>
       </nav>
+
+      <form method="POST" action="action.php">
+
+    
+        <input type="radio" id="Mr" name="civilité" value="Mr">
+        <label for="Mr" class="inline-label">Monsieur</label>
+        
+        <input type="radio" id="Mme" name="civilité" value="Mme">
+        <label for="Mme" class="inline-label">Madame</label>
+    
+        <label for="name">Votre nom</label>
+        <input type="text" name="name" id="name" placeholder="Saisissez votre nom">
+    
+        <label for="birthDate">Votre date de naissance</label>
+        <input type="date" name="birthDate" id="birthDate" placeholder="Saisissez votre date de naissance">
+    
+        <label for="email">Votre adresse e-mail</label>
+        <input type="email" name="email" id="email" placeholder="Saisissez votre adresse e-mail">
+    
+        <label for="comment">Commentaire</label>
+        <textarea
+         rows="4" name="comment" id="comment" placeholder="Ajoutez un commentaire pertinent">
+        </textarea>
+        
+    
+        <p>Acceptez-vous nos conditions ainsi que recevoir notre newsletter?</p>
+    
+        <input type="checkbox" id="tos">
+        <label for="tos" class="inline-label">j'accepte les conditions</label>
+        <br>
+        <input type="checkbox">
+        <label class="inline-label">J'accepte de recevoir la newsletter</label>
+    
+        <div>
+            <button type="submit">soumettre</button>
+            <button type="reset">effacer le formulaire</button>
+        </div>
+    </form>
+
 </body>
 </html>

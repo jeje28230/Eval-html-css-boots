@@ -51,3 +51,25 @@ button[type=submit] {
     padding: 10px;
     margin-top: 15px;
 }
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 20px 200px 0 100px;
+  }
+
+  thead {
+    background-color: lightgray;
+  }
+
+  caption {
+    font-weight: bold;
+    margin: 20px 400px 10px 400px;
+    text-decoration: underline;
+  }
+
+  .bold {
+    font-weight: bold;
+  }

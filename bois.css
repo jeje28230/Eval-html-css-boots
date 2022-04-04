@@ -70,3 +70,8 @@ table, th, td {
     margin: 20px 400px 10px 400px;
     text-decoration: underline;
   }
+
+  .pics{
+      height: 200px;
+      width: 200px;
+  }

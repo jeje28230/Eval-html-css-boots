@@ -1,4 +1,4 @@
-html{
+body{
     background-color:#ecb97e ;
 }
 
@@ -10,4 +10,10 @@ h1{
 header{
     display: flex;
     justify-content: center;
+}
+
+.Menu{
+    border: solid 2px;
+    display: flex;
+    justify-content: space-around;
 }

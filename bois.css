@@ -58,6 +58,7 @@ table, th, td {
     border-collapse: collapse;
     padding: 10px;
     margin: 20px 200px 0 100px;
+    font-weight: bold;
   }
 
   thead {
@@ -68,8 +69,4 @@ table, th, td {
     font-weight: bold;
     margin: 20px 400px 10px 400px;
     text-decoration: underline;
-  }
-
-  .bold {
-    font-weight: bold;
   }

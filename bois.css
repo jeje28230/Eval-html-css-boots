@@ -8,8 +8,7 @@ h1{
 }
 
 header{
-    display: flex;
-    justify-content: center;
+    display: inline-block;
 }
 
 .Menu{

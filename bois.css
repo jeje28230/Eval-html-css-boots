@@ -2,10 +2,15 @@ body{
     background-color:#dfd2c09a ;
 }
 
-header{
+.header{
+    display: block;
+    margin: auto;
+}
+
+h1{
     text-decoration: underline;
-    display: inline-block;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .Menu{
@@ -21,15 +26,13 @@ header{
     height: 300px;
 }
 
-@media screen and (max-width: 700px) and (orientation: portrait) { 
+@media screen and (min-width: 700px) and (orientation: portrait) { 
     form {
     width: 50%;
-    border: solid 2px brown;
     margin: 20px 100px 100px 250px;
  }
 }
 
- 
 
 form label {
     display: flex;
@@ -59,6 +62,14 @@ button[type=submit] {
     margin-top: 15px;
 }
 
+@media screen and (max-width: 700px) and (orientation: landscape){
+    table, tbody, tr, td {
+        display: block;
+        width: auto;
+    }
+    
+  }
+
 table, th, td {
     border: 1px solid black;
     text-align: center;
@@ -66,7 +77,7 @@ table, th, td {
     padding: 10px;
     font-weight: bold;
     margin-left: 150px;
-  }
+}
 
   thead {
     background-color: lightgray;

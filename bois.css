@@ -2,13 +2,10 @@ body{
     background-color:#dfd2c09a ;
 }
 
-h1{
-    text-align: center;
-    text-decoration: underline;
-}
-
 header{
+    text-decoration: underline;
     display: inline-block;
+    
 }
 
 .Menu{

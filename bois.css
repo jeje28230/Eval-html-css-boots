@@ -33,7 +33,6 @@ h1{
  }
 }
 
-
 form label {
     display: flex;
     font-weight: bold;
@@ -62,34 +61,11 @@ button[type=submit] {
     margin-top: 15px;
 }
 
-@media screen and (max-width: 700px) and (orientation: landscape){
-    table, tbody, tr, td {
-        display: block;
-        width: auto;
-    }
-    
-  }
-
-table, th, td {
-    border: 1px solid black;
-    text-align: center;
-    border-collapse: collapse;
-    padding: 10px;
-    font-weight: bold;
-    margin-left: 150px;
+.pics {
+    height: 200px;
+    width: 200px;
 }
 
-  thead {
-    background-color: lightgray;
-  }
-
-  caption {
-    font-weight: bold;
-    margin: 20px 400px 10px 400px;
+h2 {
     text-decoration: underline;
-  }
-
-  .pics{
-      height: 200px;
-      width: 200px;
-  }
+}
